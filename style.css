@@ -1,0 +1,46 @@
+*{
+    margin: 2;
+    padding: 2;
+}
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(218, 92, 169);
+    margin-left:7%;
+    
+}
+#subtítulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(135, 65, 138);
+    margin-left: 9%;
+}
+fieldset{
+    border: 1;
+}
+body{
+    background-color: rgb(173, 130, 164);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: rgb(148, 98, 129);
+    margin-left: 0%;
+    margin-top: 2%;
+    justify-content: left;
+
+}
+input, select, textarea,button{
+    background-color: rgb(240, 226, 233);
+    border-radius: 4px;
+}
+.campo{
+    margin-bottom: 2em;
+    background-color: rgb(250, 244, 247);
+}
+.campo label{
+    margin-bottom: 0.2 em;
+    color: rgb(158, 125, 156);
+    display: block;
+}
+@media(max-width:720px){
+    form{
+        padding: 10px;
+    }
+}
